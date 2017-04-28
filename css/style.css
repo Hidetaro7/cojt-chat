@@ -1,0 +1,162 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background-color: #FFD4B6;
+}
+
+.main_header {
+	background-color: rgba(255, 255, 255, .9);
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+
+.main_header h1 {
+	font-size: 100%;
+	text-align: center;
+	margin-top: 17px;
+	font-weight: normal;
+}
+
+.main_header i {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.input_container {
+	background-color: rgba(255, 255, 255, .9);
+	position: fixed;
+	bottom: 0;
+	width: calc(100% - 20px);
+	padding: 10px;
+	text-align: center;
+}
+
+.input_container input {
+	font-size: 100%;
+	width: 70%;
+}
+
+.input_container .submit {
+	width: 15%;
+	font-size: 80%;
+	-webkit-appearance: none;
+	background-color: #FF5463;
+	border: none;
+	color: #fff;
+	border-radius: 4px;
+	padding: 4px 15px;
+}
+
+.chat_container {
+	padding-top: 60px;
+}
+
+.chat_item {
+	padding: 10px;
+	clear: both;
+}
+
+.chat_item .face_icon {
+	width: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+}
+
+.chat_item .talk_box {
+	background-color: #fff;
+	border-radius: 0 20px 20px 20px;
+	padding: 5px 15px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	font-size: 90%;
+}
+
+.chat_item .talk_time {
+	float: left;
+	font-size: 70%;
+	margin-top: 20px;
+	color: #999;
+}
+
+.from_us .face_icon {
+	float: right;
+	margin-right: 0;
+}
+.from_us .talk_box {
+	float: right;
+}
+.from_us .talk_time {
+	float: right;
+	margin-right: 5px;
+}
+
+/*Menu
+---------------------------
+*/
+
+.drawer_menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.9);
+	transform: translateX(-100%);
+	transition: transform .2s;
+}
+
+.menu_open .drawer_menu {
+	transform: translateX(0);
+}
+
+.drawer_menu .close_btn {
+	height: 60px;
+}
+
+.drawer_menu .close_btn i {
+	font-size: 120%;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.drawer_menu ul {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #ccc;
+}
+
+.drawer_menu li {
+	padding: 0;
+	list-style-type: none;
+}
+
+.drawer_menu li a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
